@@ -135,6 +135,3 @@ Dashboard Admin
 ![](Aspose.Words.cc51b3e6-e3e2-49b8-88cc-41da08b2b795.011.png)
 
 
-1. Vídeo apresentação
-
-`	`Segue o link da apresentação do site por completo: <https://youtu.be/vimYO46zWVw>
