@@ -1,6 +1,3 @@
-﻿Avaliação Regimental P1 
-
-Tecnologias e Programação Integrada
 
 Bruno Agoston de Assis
 
