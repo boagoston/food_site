@@ -19,11 +19,11 @@ if(isset($message)){
 
       <nav class="navbar">
          <a href="dashboard.php">home</a>
-         <a href="products.php">products</a>
-         <a href="placed_orders.php">orders</a>
+         <a href="products.php">produtos</a>
+         <a href="placed_orders.php">pedidos</a>
          <a href="admin_accounts.php">admins</a>
-         <a href="users_accounts.php">users</a>
-         <a href="messages.php">messages</a>
+         <a href="users_accounts.php">usuarios</a>
+         <a href="messages.php">mensagens</a>
       </nav>
 
       <div class="icons">
@@ -38,7 +38,7 @@ if(isset($message)){
             $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
          ?>
          <p><?= $fetch_profile['name']; ?></p>
-         <a href="update_profile.php" class="btn">update profile</a>
+         <a href="update_profile.php" class="btn">atualizar perfil</a>
          <div class="flex-btn">
             <a href="admin_login.php" class="option-btn">login</a>
             <a href="register_admin.php" class="option-btn">register</a>

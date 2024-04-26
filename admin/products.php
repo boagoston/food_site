@@ -98,7 +98,7 @@ if(isset($_GET['delete'])){
          <option value="desserts">sobremesas</option>
       </select>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp" required>
-      <input type="submit" value="add product" name="add_product" class="btn">
+      <input type="submit" value="adicionar produto" name="add_product" class="btn">
    </form>
 
 </section>
@@ -125,7 +125,7 @@ if(isset($_GET['delete'])){
       </div>
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="flex-btn">
-         <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">update</a>
+         <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">atualizar</a>
          <a href="products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('deletar este produto?');">delete</a>
       </div>
    </div>

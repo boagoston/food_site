@@ -15,14 +15,14 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a href="home.php" class="logo">yum-yum 😋</a>
+      <a href="home.php" class="logo">Violeta Lanches 😋</a>
 
       <nav class="navbar">
          <a href="home.php">home</a>
-         <a href="about.php">about</a>
+         <a href="about.php">sobre</a>
          <a href="menu.php">menu</a>
-         <a href="orders.php">orders</a>
-         <a href="contact.php">contact</a>
+         <a href="orders.php">pedidos</a>
+         <a href="contact.php">contato</a>
       </nav>
 
       <div class="icons">
@@ -46,17 +46,17 @@ if(isset($message)){
          ?>
          <p class="name"><?= $fetch_profile['name']; ?></p>
          <div class="flex">
-            <a href="profile.php" class="btn">profile</a>
+            <a href="profile.php" class="btn">perfil</a>
             <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
          </div>
          <p class="account">
-            <a href="login.php">login</a> or
-            <a href="register.php">register</a>
+            <a href="login.php">login</a> ou
+            <a href="register.php">cadastrar</a>
          </p> 
          <?php
             }else{
          ?>
-            <p class="name">please login first!</p>
+            <p class="name">faça seu login!</p>
             <a href="login.php" class="btn">login</a>
          <?php
           }

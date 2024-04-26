@@ -92,7 +92,7 @@ if(!isset($admin_id)){
       ?>
       <h3><?= $numbers_of_products; ?></h3>
       <p>produtos adicionados</p>
-      <a href="products.php" class="btn">see products</a>
+      <a href="products.php" class="btn">ver produtos</a>
    </div>
 
    <div class="box">
@@ -103,7 +103,7 @@ if(!isset($admin_id)){
       ?>
       <h3><?= $numbers_of_users; ?></h3>
       <p>contas de usuarios</p>
-      <a href="users_accounts.php" class="btn">see users</a>
+      <a href="users_accounts.php" class="btn">ver usuarios</a>
    </div>
 
    <div class="box">
@@ -114,7 +114,7 @@ if(!isset($admin_id)){
       ?>
       <h3><?= $numbers_of_admins; ?></h3>
       <p>admins</p>
-      <a href="admin_accounts.php" class="btn">see admins</a>
+      <a href="admin_accounts.php" class="btn">ver admins</a>
    </div>
 
    <div class="box">
